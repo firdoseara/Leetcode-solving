@@ -1,4 +1,6 @@
-n -= 1
+class Solution:
+    def minEnd(self, n: int, x: int) -> int:
+        n -= 1
         base_n = base_x = 1
         while base_n <= n:
             if (x&base_x) == 0:
